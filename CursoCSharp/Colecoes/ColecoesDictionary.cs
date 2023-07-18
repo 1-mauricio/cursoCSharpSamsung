@@ -1,0 +1,54 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CursoCSharp.Colecoes
+{
+    class ColecoesDictionary
+    {
+        public static void Executar()
+        {
+            var filmes = new Dictionary<int, string>();
+
+            filmes.Add(2000, "gladiador");
+            filmes.Add(2002, "homem aranha");
+            filmes.Add(2004, "os incriveis");
+            filmes.Add(2006, "o grande truque");
+
+            if (filmes.ContainsKey(2004))
+            {
+                Console.WriteLine($"2004: {filmes[2004]}");
+            }
+
+            Console.WriteLine(filmes.ContainsValue("Amnesia"));
+
+            Console.WriteLine($"removeu? {filmes.Remove(2006)}");
+
+            filmes.TryGetValue(2006, out string filme2006);
+            Console.WriteLine($"{filme2006}");
+
+            foreach (var chave in filmes.Keys)
+            {
+                Console.WriteLine(chave);
+            }
+
+            foreach (var valor in filmes.Values)
+            {
+                Console.WriteLine(valor);
+            }
+
+            foreach (KeyValuePair<int, string> filme in filmes)
+            {
+                Console.WriteLine($"{filme.Value} é de {filme.Key}");
+            }
+
+            foreach (var filme in filmes)
+            {
+                Console.WriteLine($"{filme.Value} é de {filme.Key}");
+
+            }
+        }
+    }
+}

@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Api\LendoArquivos.cs" />
+    <Compile Include="Api\PrimeiroArquivo.cs" />
     <Compile Include="CentralDeExercicios.cs" />
     <Compile Include="ClassesEMetodos\AtributosEstaticos.cs" />
     <Compile Include="ClassesEMetodos\Construtores.cs" />
@@ -52,7 +54,9 @@
     <Compile Include="ClassesEMetodos\Membros.cs" />
     <Compile Include="ClassesEMetodos\MetodosComRetorno.cs" />
     <Compile Include="ClassesEMetodos\MetodosEstaticos.cs" />
+    <Compile Include="ClassesEMetodos\ParametroPadrao.cs" />
     <Compile Include="ClassesEMetodos\ParametrosNomeados.cs" />
+    <Compile Include="ClassesEMetodos\ParametrosPorReferencia.cs" />
     <Compile Include="ClassesEMetodos\Params.cs" />
     <Compile Include="ClassesEMetodos\Pessoa.cs" />
     <Compile Include="ClassesEMetodos\Props.cs" />
@@ -60,6 +64,14 @@
     <Compile Include="ClassesEMetodos\Struct.cs" />
     <Compile Include="ClassesEMetodos\StructVsClasse.cs" />
     <Compile Include="ClassesEMetodos\ValorVsReferencia.cs" />
+    <Compile Include="Colecoes\Array.cs" />
+    <Compile Include="Colecoes\ColecoesArrayList.cs" />
+    <Compile Include="Colecoes\ColecoesDictionary.cs" />
+    <Compile Include="Colecoes\ColecoesQueue.cs" />
+    <Compile Include="Colecoes\ColecoesSet.cs" />
+    <Compile Include="Colecoes\ColecoesList.cs" />
+    <Compile Include="Colecoes\ColecoesStack.cs" />
+    <Compile Include="Colecoes\Igualdade.cs" />
     <Compile Include="EstruturasDeControle\EstruturaBreak.cs" />
     <Compile Include="EstruturasDeControle\EstruturaContinue.cs" />
     <Compile Include="EstruturasDeControle\EstruturaDoWhile.cs" />
@@ -70,6 +82,8 @@
     <Compile Include="EstruturasDeControle\EstruturaIfElseIf.cs" />
     <Compile Include="EstruturasDeControle\EstruturaSwitch.cs" />
     <Compile Include="EstruturasDeControle\EstruturaWhile.cs" />
+    <Compile Include="Excecoes\ExcecoesPersonalizadas.cs" />
+    <Compile Include="Excecoes\PrimeiraExcecao.cs" />
     <Compile Include="Fundamentos\Comentarios.cs" />
     <Compile Include="Fundamentos\Conversoes.cs" />
     <Compile Include="Fundamentos\FormatandoNumeros.cs" />
@@ -85,11 +99,30 @@
     <Compile Include="Fundamentos\OperadoresUnarios.cs" />
     <Compile Include="Fundamentos\PrimeiroPrograma.cs" />
     <Compile Include="Fundamentos\VariaveisEConstantes.cs" />
+    <Compile Include="MetodosEFuncoes\DelegateFunAnonima.cs" />
+    <Compile Include="MetodosEFuncoes\DelegatesComoParametros.cs" />
+    <Compile Include="MetodosEFuncoes\ExemploLambda.cs" />
+    <Compile Include="MetodosEFuncoes\LambdasDelegate.cs" />
+    <Compile Include="MetodosEFuncoes\MetodosDeExtensao.cs" />
+    <Compile Include="MetodosEFuncoes\UsandoDelegates.cs" />
+    <Compile Include="OO\Abstract.cs" />
+    <Compile Include="OO\ConstrutorThis.cs" />
+    <Compile Include="OO\Encapsulamento.cs" />
+    <Compile Include="OO\Heranca.cs" />
+    <Compile Include="OO\Interface.cs" />
+    <Compile Include="OO\Polimorfismo.cs" />
+    <Compile Include="OO\Sealed.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Encapsulamento\Encapsulamento.csproj">
+      <Project>{59273241-ad13-468d-90d5-5bdd683aae26}</Project>
+      <Name>Encapsulamento</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -5,3 +5,6 @@ C:\Workspace\Curso C#\CursoCSharp\CursoCSharp\obj\Debug\CursoCSharp.csproj.Assem
 C:\Workspace\Curso C#\CursoCSharp\CursoCSharp\obj\Debug\CursoCSharp.csproj.CoreCompileInputs.cache
 C:\Workspace\Curso C#\CursoCSharp\CursoCSharp\obj\Debug\CursoCSharp.exe
 C:\Workspace\Curso C#\CursoCSharp\CursoCSharp\obj\Debug\CursoCSharp.pdb
+C:\Workspace\Curso C#\CursoCSharp\CursoCSharp\bin\Debug\Encapsulamento.dll
+C:\Workspace\Curso C#\CursoCSharp\CursoCSharp\bin\Debug\Encapsulamento.pdb
+C:\Workspace\Curso C#\CursoCSharp\CursoCSharp\obj\Debug\CursoCSharp.csproj.CopyComplete

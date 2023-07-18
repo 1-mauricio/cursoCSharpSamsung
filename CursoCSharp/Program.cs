@@ -4,6 +4,11 @@ using System.Collections.Generic;
 using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.ClassesEMetodos;
+using CursoCSharp.Colecoes;
+using CursoCSharp.OO;
+using CursoCSharp.MetodosEFuncoes;
+using CursoCSharp.Excecoes;
+using CursoCSharp.Api;
 
 namespace CursoCSharp {
     class Program {
@@ -52,7 +57,44 @@ namespace CursoCSharp {
                 {"Enum - Classes e Metodos", ExemploEnum.Executar},
                 {"Struct - Classes e Metodos", ExemploStruct.Executar},
                 {"Struct Vs Classe - Classes e Metodos", StructVsClasse.Executar},
-                {"VAlor Vs Referencia - Classes e Metodos", ValorVsReferencia.Executar},
+                {"Valor Vs Referencia - Classes e Metodos", ValorVsReferencia.Executar},
+                {"Parametros por Referencia - Classes e Metodos", ParametrosPorReferencia.Executar},
+                {"Parametros com valor padrao - Classes e Metodos", ParametroPadrao.Executar},
+
+                //Colecoes
+                {"Array - Coleções", Colecoes.Array.Executar},
+                {"List - Coleções", ColecoesList.Executar},
+                {"ArrayList - Coleções", ColecoesArrayList.Executar},
+                {"Set - Coleções", ColecoesSet.Executar},
+                {"Queue - Coleções", ColecoesQueue.Executar},
+                {"Igualdade - Coleções", Igualdade.Executar},
+                {"Stack - Coleções", ColecoesStack.Executar},
+                {"Dictionary - Coleções", ColecoesDictionary.Executar},
+
+                // OO
+                {"Heranca - OO", Heranca.Executar},
+                {"Construtor This - OO", ConstrutorThis.Executar},
+                {"Encapsulamento - OO", OO.Encapsulamento.Executar},
+                {"Polimorfismo - OO", Polimorfismo.Executar},
+                {"Abstract - OO", Abstract.Executar},
+                {"Interface - OO", Interface.Executar},
+                {"Sealed - OO", Sealed.Executar},
+
+                // Metodos e funcoes
+                {"Exemplo Lambda - Metodos e funçoes", ExemploLambda.Executar},
+                {"Lambdas como Delegate - Metodos e funçoes", LambdasDelegate.Executar},
+                {"Usando Delegates - Metodos e funçoes", UsandoDelegates.Executar},
+                {"Delegate Funcoes anonimas - Metodos e funçoes", DelegateFunAnonima.Executar},
+                {"Delegate como parametros - Metodos e funçoes", DelegatesComoParametros.Executar},
+                {"Metodos de Extensao - Metodos e funçoes", MetodosDeExtensao.Executar},
+
+                // Excecoes
+                {"Primeira Excecao - Excecoes", PrimeiraExcecao.Executar},
+                {"Excecoes Personalizadas - Excecoes", ExcecoesPersonalizadas.Executar},
+
+                //Api
+                {"Primeiro arquivo usando api - Api", PrimeiroArquivo.Executar},
+                {"Lendo arquivos usando api - Api", LendoArquivos.Executar},
 
             });
 
